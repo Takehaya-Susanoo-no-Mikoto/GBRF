@@ -4,3 +4,4 @@ This algorithm can be used for regression tasks. It is based on the combination 
 This algorithm can achieve good results if the hyperparameters are carefully tuned. Some of the important hyperparameters to consider include the number of estimators (i.e., the number of trees to build), the maximum depth of the trees, and the minimum number of samples required to split a node.
 
 The algorithm is implemented using only NumPy. It is easy to use and can be adapted to various regression tasks.
+![image](https://user-images.githubusercontent.com/124432421/236643232-16a4ac84-4fe0-47b5-8cb3-60dbe6ebc95d.png)
