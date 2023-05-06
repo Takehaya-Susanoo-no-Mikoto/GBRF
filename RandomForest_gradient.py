@@ -134,7 +134,7 @@ class RandomForest:
         return predictions / self.n_trees
 
 
-class GBT:
+class GBRF:
     def __init__(self, n_estimators=100, max_depth=3, min_samples=10, lr=0.1):
         self.n_estimators = n_estimators
         self.max_depth = max_depth
@@ -172,7 +172,7 @@ class GBT:
         return 1 - np.sum((predicted - targets) ** 2) / np.sum((targets.mean() - targets) ** 2)
 
 
-reg = GBT(n_estimators=100)
+reg = GBRF()
 reg.fit(X_train, y_train)
 
 y_predicted = reg.predict(X_test, 100)
